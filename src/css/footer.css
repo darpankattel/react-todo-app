@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: #228ef3;
+    color: white;
+}
+footer .social-media-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 7rem;
+}
+footer .social-media-link a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.footer-link-blue{
+    color: #00ffff;
+}

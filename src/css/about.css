@@ -1,0 +1,81 @@
+.about-main{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-main h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.about-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #228ef3;
+    color: white;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    padding: 2rem 1rem;
+    width: 60%;
+}
+.about-text a{
+    color: blue;
+}
+.about-image{
+    width: 20rem;
+    /* height: 20rem; */
+}
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-image-developer{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about-developer, .about-app{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.about-app{
+    align-items: flex-start;
+}
+.about-developer .about-text{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.about-text p, .about-text-p{
+    margin-right: 1rem;
+}
+
+.about-developer .about-text-p{
+    margin-left: 1rem;
+    margin-right: 0;
+}
+ul{
+    margin-left: 2rem;
+}
+@media (max-width: 768px){
+    .about-main{
+        width: 100%;
+    }
+    .about-text, .about-developer .about-text{
+        width: 100%;
+        padding: 3rem 1rem;
+        flex-direction: column-reverse;
+    }
+    .about-image{
+        width: 50%;
+        height: auto;
+        margin: 1rem 0;
+    }
+    .about-developer, .about-app{
+        padding: 0rem 1rem;
+        align-items: center;
+    }
+}

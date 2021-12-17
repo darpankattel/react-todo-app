@@ -1,0 +1,24 @@
+.message{
+    padding: 0.8rem 1rem;
+    min-width: 20rem;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    z-index: 99;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
+}
+.message-success{
+    background-color: rgb(35, 189, 35);
+}
+.message-error{
+    background-color: rgb(189, 35, 35);
+}
+.message-info{
+    background-color: rgb(35, 189, 189);
+}
+.message-warning{
+    background-color: rgb(189, 189, 35);
+    color: black;
+}

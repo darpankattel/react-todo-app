@@ -1,0 +1,44 @@
+.contact-container-body {
+    background-color: #228ef3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 1rem;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.contact-container-body a {
+    color: blue;
+    text-decoration: none;
+    padding: 0.1rem 0.2rem;
+}
+.contact-main{
+    min-height: 68vh;
+    width: fit-content;
+    margin: 0 auto;
+}
+.contact-container-body-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-container-body-right-body a{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin: 0 0.5rem;
+}
+@media (max-width: 768px){
+    .contact-container-body{
+        flex-direction: column;
+    }
+    .contact-main{
+        padding: 0 1rem;
+        min-height: initial;
+    }
+    .contact-container-body-left, .contact-container-body-right-body{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}

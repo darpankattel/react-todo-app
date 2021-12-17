@@ -1,0 +1,22 @@
+.add-to-do-button{
+    outline: none;
+    border: 1px solid #228ef3;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    background-color: #228ef3;
+    color: white;
+    cursor: pointer;
+}
+.add-to-do-container{
+    margin: 0.3rem 0;
+    margin-top: 1rem;
+}
+.add-to-do-icon{
+    padding: 0.1rem 0.5rem;
+}
+
+@media (orientation:portrait){
+    #add-to-do-container-form{
+        width: 70%!important;
+    }
+}
